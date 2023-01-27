@@ -1,5 +1,7 @@
 var agora = new Date()
 var dia = agora.getDay()
+var hora = agora.getHours() //selecionar a hora atual (pode ser dia, minuto, mes... )
+console.log(`Agora são exatamente ${hora} horas.`) //node js = console
 
  /*
     0 DOM
