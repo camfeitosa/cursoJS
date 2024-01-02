@@ -1,11 +1,12 @@
-/*var c =1
-while(c<=10){
+// 
 
-    c++ 
-}*/
 
-console.log('Vai começar')
-for(var c=1; c<=10; c++){ //inicialização -> teste lógico -> incremento
-    console.log(c) //variavel para aparecer o numero
+function a(valor) {
+  console.log(2 * valor);
+
+  if (valor > 0) {
+    a(valor - 1);
+  }
 }
-console.log('FIM!')
+
+console.log(a(10))

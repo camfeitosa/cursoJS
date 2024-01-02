@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 06 ex2</title>
+    <style>
+        body{
+            background-color: rgb(73, 58, 214);
+            color: #efefef;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo! </h1>
+    <script>
+       var n1 = Number(window.prompt('Digite um número: ')) //string
+       var n2 = Number(window.prompt('Digite outro número: ')) //string
+       var s = n1 + n2
+       window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) //concatenação
+
+        // window.alert('As somas dos valores é ' + s) 
+
+       /* (number + number) sianl de + para adição
+        (string + string) + para concatenação
+        window.prompt retorna sempre uma string
+        Conversão -> String para number 
+        Number.parseInt ou Number.parseFloat ou apenas Number
+        String (n) ou .toString  */
+
+       window.alert ('Estou aprendendo s') //nao faz interpolação
+       window.alert ('Estou aprendendo'+ s) //usa concatenação
+       window.alert (`Estou aprendendo ${s}`) //usa template string
+
+
+    </script>
+</body>
+</html>
